@@ -29,7 +29,7 @@ function showNotes() {
   notesStorage();
   let html = "";
   notesObj.forEach(function(element, index) {
-    html += `<div class="noteCard col-4 my-2">
+    html += `<div class="noteCard col-6 col-md-4 my-3">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Note ${element.title}</h5>
